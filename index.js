@@ -6,7 +6,6 @@ function GET_HINT_OF_OP(secret, guess) {
     for (let i = 0; i < secret.length; i++) {
         const guessNumber = parseInt(guess[i]);
         const secretNumber = parseInt(secret[i]);
-        
         if (secretNumber === guessNumber) {
             bulls++;
             continue
